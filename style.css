@@ -24,6 +24,9 @@ body {
     width: 150px;
     padding: 25px 0px 0px 35px;
 }
+:hover.logo-texto {
+    cursor: pointer;
+}
 
 
 /*RELLENO*/
@@ -67,6 +70,10 @@ p{
     font-weight: bold;
     color: #514ceb;
 }
+:hover.boton {
+    background-color: #838383;
+    cursor: pointer;
+}
 
 
 /*FOOTER*/
@@ -79,4 +86,7 @@ p{
 .social {
     width: 30px;
     height: 30px;
+}
+:hover.social {
+    cursor: pointer;
 }
