@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+*,
+*:before
+*:after{
+    box-sizing: inherit;
+}
+html {
+    background: url(fondo.png) #312ac6;
+    background-size: cover;
+    box-sizing: border-box;
+}
+body {
+    min-height: calc(111vh - 111px);
+    margin: 0px;
+}
+
+
+/*HEADLINE*/
+
+
+.logo-texto { 
+    height: 35px;
+    width: 150px;
+    padding: 25px 0px 0px 35px;
+}
+
+
+/*RELLENO*/
+
+
+.logo {
+    height: 450px;
+    width:325px;
+}
+.relleno {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 150px 50px 50px 50px;
+    align-items: center;
+}
+.texto {
+    font-size: 20px;
+}
+.boton { 
+    margin-top: 30px;
+}
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.boton {
+    width: 175px;
+    height: 45px;
+    border-radius: 50px;
+    border: black 1px solid;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #514ceb;
+}
+
+
+/*FOOTER*/
+
+
+.footer {
+     position:relative;
+     position:absolute; bottom:25px; right:25px; }
+
+.social {
+    width: 30px;
+    height: 30px;
+}
