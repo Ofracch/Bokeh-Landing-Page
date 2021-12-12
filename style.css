@@ -161,5 +161,25 @@ footer {
         bottom: 0;
         right: 0; 
         text-align: end;
-   }  
+   }
 }
+   @media (max-width: 650px) {
+       .relleno {
+           padding: 0px;
+       }
+       .logo-texto {
+           height: 20px;
+           width: 75px;
+           padding: 10px 0px 0px 10px;
+       }
+       .logo {
+           height: 150px;
+           width: 125px;
+           padding-top: 20px;
+       }
+       .boton {
+        width: 125px;
+        height: 30px;
+        font-size: 12px;
+       }
+    }
