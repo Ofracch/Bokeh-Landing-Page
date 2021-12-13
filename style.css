@@ -183,3 +183,20 @@ footer {
         font-size: 12px;
        }
     }
+       @media (max-width: 300px) {
+       footer {
+        position: absolute;
+        top: 0;
+        right: 0; 
+        text-align: end;
+        padding: 10px 0px 0px 10px;
+   }
+   .logo-texto {
+       position: absolute;
+       top: 0;
+       bottom: 0;
+   }
+   .logo {
+       padding-top: 40px;
+   }
+}
